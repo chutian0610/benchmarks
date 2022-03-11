@@ -160,7 +160,7 @@ public class AviatorBenchMark {
     public static void main(String[] args) throws RunnerException {
         Options options = new OptionsBuilder()
                 .include(AviatorBenchMark.class.getSimpleName())
-                .output(System.getProperty("user.dir")+ File.separator+"el-benchmark"+File.separator+"logs" + File.separator+"Benchmark-aviator.log") // benchmark log
+                .output(System.getProperty("user.dir")+ File.separator+"Benchmark-aviator.log") // benchmark log
                 .build();
         new Runner(options).run();
     }

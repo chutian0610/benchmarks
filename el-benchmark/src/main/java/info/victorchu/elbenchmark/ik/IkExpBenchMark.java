@@ -155,7 +155,7 @@ public class IkExpBenchMark {
     public static void main(String[] args) throws RunnerException {
         Options options = new OptionsBuilder()
                 .include(IkExpBenchMark.class.getSimpleName())
-                .output(System.getProperty("user.dir")+ File.separator+"el-benchmark"+File.separator+"logs" +File.separator+"Benchmark-ik.log") // benchmark log
+                .output(System.getProperty("user.dir")+ File.separator+"Benchmark-ik.log") // benchmark log
                 .build();
         new Runner(options).run();
     }
