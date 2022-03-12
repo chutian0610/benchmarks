@@ -3,6 +3,7 @@
 ## install jar to maven local repo
 
 ```bash
+# https://code.google.com/archive/p/ik-expression/
 cd ./jars
 mvn install:install-file -DgroupId=org.wltea -DartifactId=ik-expression -Dversion=2.1.2 -Dpackaging=jar  -Dfile=./IKExpression2.1.2.jar
 ```
